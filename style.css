@@ -134,12 +134,13 @@ hr {
 }
 
 #projects{
-    height: 850px;
+    height: auto;
     line-height: 2rem;
     display: grid;
     flex-direction: row;
     justify-content:center;
     flex-wrap: wrap;
+    padding-bottom: 40px;
     
 }
 .bullet{
@@ -169,7 +170,7 @@ hr {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    height: 150px;
+    height: auto;
 }
 .container .blogs h1{
    padding-left: 0px;
