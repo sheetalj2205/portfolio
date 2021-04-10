@@ -51,6 +51,7 @@ hr {
     max-width: 140px;
     margin: 1.5rem 1rem 1.5rem 0rem;
     font-weight: bold;
+    margin-top: 0.5em;
 
 }
 
@@ -72,6 +73,8 @@ hr {
 
 .list-item-inline {
     display: inline;
+    
+    
     padding: 0rem 0.5rem;
 }
 
@@ -80,19 +83,19 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: black;
+    height: 100px;
     padding: 1rem;
     border-bottom-left-radius: 1.5rem;
+
 }
 
-.navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1.4rem;
-    font-family: 'Cookie', cursive;
-    font-family: 'Padauk', sans-serif;
-}
+
 
 .navigation .nav-pills {
+    
     text-align: right;
+    position:relative;
+    top: -30px;
 }
 
 .navigation .link {
@@ -131,7 +134,18 @@ hr {
 }
 
 #projects{
-    height: 1050px;
+    height: 850px;
+    line-height: 2rem;
+    display: grid;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+.bullet{
+   
+    padding-bottom: 10px;
+    box-shadow: 0 10px 10px rgba(145, 119, 119, 0.19), 2px 3px 3px rgba(90, 57, 57, 0.23);
 }
 
 .section {
@@ -154,6 +168,7 @@ hr {
     background-color: var(--off-white);
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
     height: 150px;
 }
 .container .blogs h1{
@@ -176,7 +191,7 @@ hr {
 }
 
 .footer .link {
-    color: black;
+    display: inline;
 }
 
 .footer .footer-header {
@@ -188,3 +203,24 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+a {
+	text-decoration: none;
+	opacity: 0.75;
+	color:black;
+}
+
+a:hover {
+	opacity: 1;
+    
+   
+    
+	color : blue;
+}
+.list-item-inline{
+    font-weight: bold;
+}
+.desc{
+    padding-bottom: 10px;
+}
+
