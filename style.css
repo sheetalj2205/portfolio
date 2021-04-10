@@ -177,6 +177,7 @@ hr {
 }
 .blog{
     height: 250px;
+    
 }
 #blogs{
     height:250px;
@@ -216,7 +217,7 @@ a:hover {
     
    
     
-	color : blue;
+	color : #A0522D;
 }
 .list-item-inline{
     font-weight: bold;
@@ -224,3 +225,25 @@ a:hover {
 .desc{
     padding-bottom: 10px;
 }
+@media (max-width: 800px) {
+	
+	img {
+		width: 20%;
+}
+@media (max-width: 650px) {
+	
+    img {
+        width: 24%;
+    }
+@media (max-width: 500px) {
+	
+    img {
+        width: 35%;
+        }
+    
+@media (max-width: 330px) {
+	
+    img {
+        width: 40%;
+        }
+    
