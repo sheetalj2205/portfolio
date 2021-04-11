@@ -40,7 +40,7 @@ hr {
 .link {
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 0.1rem;
     text-align: center;
     font-size: 1.2rem;
 }
@@ -215,15 +215,17 @@ a {
 
 a:hover {
 	opacity: 1;
-    
-   
-    
-	color : #A0522D;
+    color :DodgerBlue;
+}
+.link-primary:hover{
+    opacity: 1;
+    color :#E0FFFF;
 }
 .list-item-inline{
     font-weight: bold;
 }
 .desc{
+    padding-top:10px;
     padding-bottom: 10px;
 }
 @media (max-width: 800px) {
