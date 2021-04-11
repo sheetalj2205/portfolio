@@ -233,21 +233,24 @@ a:hover {
 	
 	img {
 		width: 20%;
+    }
 }
 @media (max-width: 650px) {
 	
     img {
         width: 24%;
     }
+}
 @media (max-width: 500px) {
 	
     img {
         width: 35%;
         }
+}
     
 @media (max-width: 330px) {
 	
     img {
         width: 40%;
         }
-    
+}
