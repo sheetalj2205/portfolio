@@ -52,7 +52,8 @@ hr {
     margin: 1.5rem 1rem 1.5rem 0rem;
     font-weight: bold;
     margin-top: 0.5em;
-
+    padding: 7px 5px;
+    
 }
 
 .link-secondary {
@@ -226,27 +227,30 @@ a:hover {
 }
 .desc{
     padding-top:10px;
-    padding-bottom: 10px;
+    padding-bottom: 13px;
 }
 @media (max-width: 800px) {
 	
 	img {
 		width: 20%;
+    }
 }
 @media (max-width: 650px) {
 	
     img {
         width: 24%;
     }
+}
 @media (max-width: 500px) {
 	
     img {
         width: 35%;
         }
+}
     
 @media (max-width: 330px) {
 	
     img {
         width: 40%;
         }
-    
+}
