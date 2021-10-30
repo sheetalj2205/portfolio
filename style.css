@@ -145,8 +145,6 @@ hr {
     
 }
 .bullet{
-   
-    padding-bottom: 10px;
     box-shadow: 0 10px 10px rgba(145, 119, 119, 0.19), 2px 3px 3px rgba(90, 57, 57, 0.23);
 }
 
@@ -226,7 +224,6 @@ a:hover {
     font-weight: bold;
 }
 .desc{
-    padding-top:10px;
     padding-bottom: 13px;
 }
 @media (max-width: 800px) {
