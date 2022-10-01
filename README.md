@@ -1,7 +1,9 @@
 # portfolio
+
 My portfolio website
 
 # Contribution Guideline
+
 - Don't forget to give a star to repository.
 
 1. Fork the repository and clone it locally from the `hacktoberfest` branch. Before starting your work make sure it's up to date with current `hacktoberfest` branch.
