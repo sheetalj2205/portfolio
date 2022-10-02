@@ -1,200 +1,201 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link href="style.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Padauk&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cookie&family=Padauk&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <nav class="navigation">
-      <div class="col-xs-12">
-        <a>
-          <div class="img mt-5">
-            <img src="images/port.png" width="15%" />
-          </div>
-        </a>
-      </div>
-      <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-          <a class="link link-active" href="#">Home</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="#projects">Projects</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="#blogs">Blogs</a>
-        </li>
-      </ul>
-    </nav>
 
-    <header class="hero">
-      <img class="hero-img" src="images/img1.svg" />
-      <h1 class="hero-heading">HELLO, WORLD!</h1>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Sheetal Jain Portfolio</title>
 
-    <section class="section">
-      <div class="container centered-container">
-        <h1>About me</h1>
-        <p>
-          Hi! I am Sheetal Jain, a junior at Ujjain Engineering College, India
-          pursuing my undergrad in Computer Science Engineering. Designing and
-          Coding have been my passion since the days I started working with
-          computers.
-        </p>
-      </div>
-    </section>
+  <!-- CSS Link -->
+  <link href="style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-    <section class="section-2">
-      <div class="container centered-container">
-        <h1>Technologies</h1>
-        <p>
-          I'm familiar with C Programming language, Core and Advanced Java(JSP, Servlet),
-          Python(beginner), Hibernate, Moqui, HTML, CSS, Javascript,
-          Bootstrap, ReactJs(beginner), Visual Studio Code, Version Controlling
-          System(git)
-        </p>
-      </div>
-    </section>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Padauk&display=swap" rel="stylesheet" />
 
-    <section class="section">
-      <div class="container centered-container">
-        <h1>Work</h1>
-        <p>
-          SDE Intern at HotWax Systems| Java/J2SE Developer Intern at Technosoft
-          Informatics| Contributor at GSSoC'21| Core Team Member - GDG Indore|
-          Public Relations and Outreach Head - GFG UEC
-        </p>
-      </div>
-    </section>
+  <!-- AOS CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <div id="projects">
-      <section class="section">
-        <div class="container centered-container">
-          <h1>Projects</h1>
+  <!-- Favicon link -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.jpeg">
+</head>
 
-          <div class="bullet">
-            <p>
-              <b>Spring Web Applications - Live Project</b>
-            </p>
-
-            <div class="desc">
-              <p>
-                Developed a module for our client's project Arihant
-                Transformers. Technologies used: Java, Spring, Hibernate and
-                MySQL.
-              </p>
-            </div>
-          </div>
-
-          <div class="bullet">
-            <p>
-              <b>Lecture Backup</b>
-            </p>
-
-            <div class="desc">
-              <p>
-                A software that allows students to create requests for backups.
-                Technologies used: Java, Swing GUI, Hibernate and MySQL.
-                <br />
-                <a
-                  class="link link-primary project"
-                  href="https://github.com/Sheetalj2205/Lecture-Backup"
-                  target="_blank"
-                >
-                  <b>Github Link</b></a>
-              </p>
-            </div>
-            <br />
-          </div>
-
-          <div class="bullet">
-            <p>
-              <b>Aarogya - Hackabull 2021, South Florida University</b>
-            </p>
-
-            <div class="desc">
-              <p>
-                A web application to reduce the gap between doctors and rural
-                patients.
-                <br />
-                <a
-                  class="link link-primary project"
-                  href="https://github.com/sheetalj2205/Aarogya"
-                  target="_blank"
-                >
-                  <b>Github Link</b></a>
-                <br />
-              </p>
-            </div>
-          </div>
+<body>
+  <nav class="navigation">
+    <div class="col-xs-12">
+      <a>
+        <div class="img mt-5">
+          <img src="images/port.png" width="15%" />
         </div>
-      </section>
+      </a>
     </div>
+    <ul class="list-non-bullet nav-pills">
+      <li class="list-item-inline">
+        <a class="link link-active" href="#">Home</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="#projects">Projects</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="#blogs">Blogs</a>
+      </li>
+    </ul>
+  </nav>
+<!-- ============== Header Section ============= -->
+  <header class="hero">
+    <img class="hero-img" src="images/img1.svg" />
+    <h1 class="hero-heading">HELLO, WORLD!</h1>
+  </header>
 
-    <div id="blogs">
-      <section class="section-2 blog">
-        <div class="container centered-container">
-          <h1>My Blogs</h1>
+  <section class="section">
+    <div class="container centered-container">
+      <h1>About me</h1>
+      <p>
+        Hi! I am Sheetal Jain, a junior at Ujjain Engineering College, India
+        pursuing my undergrad in Computer Science Engineering. Designing and
+        Coding have been my passion since the days I started working with
+        computers.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ============== Section 2 ============= -->
+  <section class="section-2">
+    <div class="container centered-container">
+      <h1>Technologies</h1>
+      <p>
+        I'm familiar with C Programming language, Core and Advanced Java(JSP, Servlet),
+        Python(beginner), Hibernate, Moqui, HTML, CSS, Javascript,
+        Bootstrap, ReactJs(beginner), Visual Studio Code, Version Controlling
+        System(git)
+      </p>
+    </div>
+  </section>
+
+   <!-- ============== Section 3 ============= -->
+  <section class="section">
+    <div class="container centered-container">
+      <h1>Work</h1>
+      <p>
+        SDE Intern at HotWax Systems| Java/J2SE Developer Intern at Technosoft
+        Informatics| Contributor at GSSoC'21| Core Team Member - GDG Indore|
+        Public Relations and Outreach Head - GFG UEC
+      </p>
+    </div>
+  </section>
+
+   <!-- ============== Section 4 ============= -->
+  <div id="projects">
+    <section class="section">
+      <div class="container centered-container">
+        <h1>Projects</h1>
+
+        <div class="bullet">
           <p>
-            “Where the Internet is about availability of information, blogging
-            is about making information creation available to anyone.”
+            <b>Spring Web Applications - Live Project</b>
           </p>
-          <br />
-          <a class="link link-primary btn" href="blogs.html">Read Blogs</a>
-        </div>
-      </section>
-    </div>
 
-    <footer class="footer">
-      <div class="footer-header">Connect with me</div>
-      <ul class="social-links list-non-bullet">
-        <li class="list-item-inline">
-          <a
-            class="link cont"
-            href="https://www.instagram.com/invites/contact/?i=466zcjd7ggey&utm_content=g8ptqd4"
-            target="_blank"
-          >
-            Instagram
-          </a>
-        </li>
-        <li class="list-item-inline">
-          <a
-            class="link cont"
-            href="https://twitter.com/Sheetal2205?s=08"
-            target="_blank"
-          >
-            Twitter
-          </a>
-        </li>
-        <li class="list-item-inline">
-          <a
-            class="link cont"
-            href="https://github.com/sheetalj2205"
-            target="_blank"
-          >
-            Github
-          </a>
-        </li>
-        <li class="list-item-inline">
-          <a
-            class="link cont"
-            href="https://www.linkedin.com/in/sheetal-jain-64a5041a0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBlaltH7HS7ii9YEkyqO06w%3D%3D"
-            target="_blank"
-          >
-            Linkedin
-          </a>
-        </li>
-      </ul>
-    </footer>
-  </body>
+          <div class="desc">
+            <p>
+              Developed a module for our client's project Arihant
+              Transformers. Technologies used: Java, Spring, Hibernate and
+              MySQL.
+            </p>
+          </div>
+        </div>
+
+        <div class="bullet">
+          <p>
+            <b>Lecture Backup</b>
+          </p>
+
+          <div class="desc">
+            <p>
+              A software that allows students to create requests for backups.
+              Technologies used: Java, Swing GUI, Hibernate and MySQL.
+              <br />
+              <a class="link link-primary project" href="https://github.com/Sheetalj2205/Lecture-Backup"
+                target="_blank">
+                <b>Github Link</b></a>
+            </p>
+          </div>
+          <br />
+        </div>
+
+        <div class="bullet">
+          <p>
+            <b>Aarogya - Hackabull 2021, South Florida University</b>
+          </p>
+
+          <div class="desc">
+            <p>
+              A web application to reduce the gap between doctors and rural
+              patients.
+              <br />
+              <a class="link link-primary project" href="https://github.com/sheetalj2205/Aarogya" target="_blank">
+                <b>Github Link</b></a>
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+   <!-- ============== Section 5 ============= -->
+  <div id="blogs">
+    <section class="section-2 blog">
+      <div class="container centered-container">
+        <h1>My Blogs</h1>
+        <p>
+          “Where the Internet is about availability of information, blogging
+          is about making information creation available to anyone.”
+        </p>
+        <br />
+        <a class="link link-primary btn" href="blogs.html">Read Blogs</a>
+      </div>
+    </section>
+  </div>
+
+
+   <!-- ============== Footer Section ============= -->
+  <footer class="footer">
+    <div class="footer-header">Connect with me</div>
+    <ul class="social-links list-non-bullet">
+      <li class="list-item-inline">
+        <a class="link cont" href="https://www.instagram.com/invites/contact/?i=466zcjd7ggey&utm_content=g8ptqd4"
+          target="_blank">
+          Instagram
+        </a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link cont" href="https://twitter.com/Sheetal2205?s=08" target="_blank">
+          Twitter
+        </a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link cont" href="https://github.com/sheetalj2205" target="_blank">
+          Github
+        </a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link cont"
+          href="https://www.linkedin.com/in/sheetal-jain-64a5041a0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBlaltH7HS7ii9YEkyqO06w%3D%3D"
+          target="_blank">
+          Linkedin
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+<!-- AOS CDN Links -->
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+
 </html>
